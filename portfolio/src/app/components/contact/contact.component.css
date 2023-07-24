@@ -1,0 +1,15 @@
+.contact {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.contact_option {
+  width: 80px;
+  padding-right: 20px;
+}
+
+
+h4{
+  padding-top: 20px;
+}

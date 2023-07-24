@@ -1,0 +1,170 @@
+:root {
+  --color--light-purple: rgb(182, 25, 130);
+  --color--dark-blue: #951df7;
+  --color--light-blue: #0da2e7;
+  --color--white: #ffffff;
+  --color--black: #000000;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'GFS Didot', serif;
+}
+
+.wrapper_main {
+  min-height: 100%;
+  margin-bottom: -90px;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  height: 90px;
+  background-color: var(--color--light-purple);
+}
+
+
+.footer,
+.footer_place {
+  height: 90px;
+  background-color: var(--color--light-purple);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+  align-items: center;
+}
+
+
+ul {
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+
+li {
+  font-size: 18px;
+
+}
+
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+button,
+p {
+  font-size: 18px;
+}
+
+
+.logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 1rem;
+
+}
+
+
+.menu_content {
+  padding-top: 150px;
+}
+
+
+
+.bold {
+  font-weight: bold;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .menu_content {
+    margin: 0 300px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .content {
+    margin: 0 50px;
+  }
+  .img_photo {
+    height: 300px;
+    width: 300px;
+  }
+
+  .menu_content {
+    margin: 0 200px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .menu_content {
+    margin: 0 80px;
+  }
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+  .cards_row {
+    margin: 0 auto;
+    display: flex;
+    width: 400px;
+    height: 600px;
+    overflow-x: auto;
+  }
+
+  .menu_content {
+    margin: 0 60px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .img_photo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img_logo img {
+    max-width: 70px;
+  }
+  .cards_row {
+    margin-left: -60px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .img_logo img {
+    max-width: 50px;
+  }
+
+  .menu_content {
+    margin: 0 40px;
+  }
+
+  .content {
+    margin: 0 20px;
+  }
+
+    .cards_row {
+    width: 300px;
+    margin-left: -60px;
+  }
+}

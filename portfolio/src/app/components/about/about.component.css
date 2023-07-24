@@ -1,0 +1,29 @@
+.cover {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: var(--color--light-purple);
+  color: var(--color--white);
+}
+
+p {
+  padding-top: 20px;
+}
+
+.img_photo {
+  max-height: 400px;
+  max-width: 400px;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.side_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}

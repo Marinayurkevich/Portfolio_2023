@@ -1,0 +1,12 @@
+<div class="wrapper_main">
+  <app-header></app-header>
+  <ng-container [ngSwitch]="router.url">
+    <app-about *ngSwitchCase="'/'"></app-about>
+    <app-about *ngSwitchCase="'/about'"></app-about>
+    <app-skills *ngSwitchCase="'/skills'"></app-skills>
+    <app-education *ngSwitchCase="'/education'"></app-education>
+    <app-projects *ngSwitchCase="'/projects'"></app-projects>
+    <app-contact *ngSwitchCase="'/contact'"></app-contact>
+  </ng-container>
+</div>
+<app-footer></app-footer>

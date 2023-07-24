@@ -1,0 +1,14 @@
+.menu_cards{
+  margin: 0 100px;
+}
+
+.cards_row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card:hover {
+  transform: scaleY(1.01) scaleX(1.01);
+  transition-duration: 0.3s;
+}
