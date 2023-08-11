@@ -100,6 +100,7 @@ p {
   .content {
     margin: 0 50px;
   }
+
   .img_photo {
     height: 300px;
     width: 300px;
@@ -144,6 +145,7 @@ p {
   .img_logo img {
     max-width: 70px;
   }
+
   .cards_row {
     margin-left: -60px;
   }
@@ -163,7 +165,7 @@ p {
     margin: 0 20px;
   }
 
-    .cards_row {
+  .cards_row {
     width: 300px;
     margin-left: -60px;
   }
